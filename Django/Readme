@@ -1,4 +1,14 @@
 Django Website update history
-----------------------------------------------------------------------------------------
-Update 5/10/2017: Now working with MySQL
-Update 14/10/2017: Fixed bug with details page
+=============================================================================================================
+Update 5/10/2017: -------------------------------------------------------------------------------------------
+- Added database Fields
+- Now working with MySQL
+- Added Index Page/Home Page
+- Added Admin edit Page
+- Working Index Page
+- Added Navigation Bar
+- Added Details Page
+Update 14/10/2017: -------------------------------------------------------------------------------------------
+- Fixed Details Page not showing Data
+- Error handling: 404 Page not found
+- Added Login Template
