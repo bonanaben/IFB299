@@ -1,0 +1,33 @@
+for the SQLITE3 DATABASE users
+
+you will need to editting...
+
+firstly in settings.py:
+
+a) UN-COMMENT the databse right below
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
+...
+
+b) COMMENT the database below
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_db',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': '90210',
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+
+then save and then in your terminal "python manage.py runserver"
+*add "--noreload" at the end if python stops working.
