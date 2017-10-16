@@ -10,9 +10,9 @@ Update 5/10/2017: --------------------------------------------------------------
 - Added Details Page
 Update 14/10/2017: ----------------------------------------------------------------------------------------
 - Fixed Details Page not showing Data
-- Error handling: 404 Page not found
+- Error handling: 404 Page not found e.g. when typing a non-exsistant ID in URL
 - Added Login Template
 Update 16/10/2017: ----------------------------------------------------------------------------------------
-- Added Registration form: type in ".../register" at the end of the line
+- Added Registration form: type in ".../register" at the end of the URL
 - Added feature to upload images rather than typing url
 - Database edited to avoid repetition ("location_detail" table)
