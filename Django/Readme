@@ -8,11 +8,11 @@ Update 5/10/2017: --------------------------------------------------------------
 - Working Index Page
 - Added Navigation Bar
 - Added Details Page
-Update 14/10/2017: -----------------------------------------------------------------------------------------
+Update 14/10/2017: ----------------------------------------------------------------------------------------
 - Fixed Details Page not showing Data
 - Error handling: 404 Page not found
 - Added Login Template
-Update 16/10/2017: -----------------------------------------------------------------------------------------
+Update 16/10/2017: ----------------------------------------------------------------------------------------
 - Added Registration form: type in ".../register" at the end of the line
 - Added feature to upload images rather than typing url
 - Database edited to avoid repetition ("location_detail" table)
