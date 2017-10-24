@@ -7,6 +7,7 @@ Update 5/10/2017: --------------------------------------------------------------
 - Added Admin edit Page (django edit)
 - Working Index Page
 - Added Navigation Bar
+- Navigation bar is scalable (usable when window size is reduced)
 - Added Details Page
 Update 14/10/2017: ----------------------------------------------------------------------------------------
 - Fixed Details Page not showing Data
@@ -15,4 +16,13 @@ Update 14/10/2017: -------------------------------------------------------------
 Update 16/10/2017: ----------------------------------------------------------------------------------------
 - Added Registration form: type in ".../register" at the end of the URL
 - Added feature to upload images rather than typing url
+- developer mode: saves all images to a folder when in development
 - Database edited to avoid repetition ("location_detail" table)
+Update 25/10/2017: ----------------------------------------------------------------------------------------
+- Added login to work with template
+- login template also links to registration page
+- Added logout button: once user logged out user can go back
+- Username able to appear on homepage
+- non-staff/admin users can have access to certain features e.g. Delete button(s)
+- site can only be used when user has an account, else redirects to login page
+- only one type of user (user role) to login, from there links are provided in the navigation bar
