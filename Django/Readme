@@ -28,4 +28,7 @@ Update 25/10/2017: -------------------------------------------------------------
 - only one type of user (user role) to login, from there links are provided in the navigation bar
 Update 25/10/2017: ----------------------------------------------------------------------------------------
 - Users have more fields to registration table to add in (according to requirements)
+- Database re-made due to custom users error
 - login page navigationbar fixes (hidding elements unless user is logged in)
+- navigation tweaks: if user is superuser - can view all elements in navigation bar
+- navigation tweaks: if user is normal user - can only view certain elements on the navigation bar
