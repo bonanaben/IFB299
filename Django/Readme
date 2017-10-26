@@ -26,3 +26,6 @@ Update 25/10/2017: -------------------------------------------------------------
 - non-staff/admin users can have access to certain features e.g. Delete button(s)
 - site can only be used when user has an account, else redirects to login page
 - only one type of user (user role) to login, from there links are provided in the navigation bar
+Update 25/10/2017: ----------------------------------------------------------------------------------------
+- Users have more fields to registration table to add in (according to requirements)
+- login page navigationbar fixes (hidding elements unless user is logged in)
