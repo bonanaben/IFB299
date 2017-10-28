@@ -33,3 +33,5 @@ Update 26/10/2017: -------------------------------------------------------------
 - login page navigationbar fixes (hidding elements unless user is logged in)
 - navigation tweaks: if user is superuser - can view all elements in navigation bar
 - navigation tweaks: if user is normal user - can only view certain elements on the navigation bar
+Update 29/10/2017: ----------------------------------------------------------------------------------------
+- search bar added - in maintenence "upcoming feature"
