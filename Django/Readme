@@ -39,3 +39,12 @@ Update 30/10/2017: -------------------------------------------------------------
 - favoriting update: capabilities for user to favorite spot information - any user can favorite.
 - favorite folder (view all favorited places) - in maintenence "upcoming feature"
 - Database update: new fields for favoriting.
+Update 31/10/2017: ----------------------------------------------------------------------------------------
+- FINAL update
+- favourites section: users can view all favourited spotinformations
+- searching through the database is now available
+- filtering according to 
+    - Student: Colleges, Libraries & Entertainment
+    - Tourist: Hotels & Entertainment
+    - Business: Hotels & Industry
+- database update: categories added for filtering (above point)
