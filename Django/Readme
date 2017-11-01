@@ -1,4 +1,5 @@
 Django Website update history
+<<< IFB299/Django/FINAL WEBSITE >>> <-- WEBSITE
 ===========================================================================================================
 Update 5/10/2017: -----------------------------------------------------------------------------------------
 - Added database Fields
@@ -48,3 +49,6 @@ Update 31/10/2017: -------------------------------------------------------------
     - Tourist: Hotels & Entertainment
     - Business: Hotels & Industry
 - database update: categories added for filtering (above point)
+Update 1/10/2017: ----------------------------------------------------------------------------------------
+- fixed issue when logging in where user was returened with a empty home page
+- fixed issue where user can only login by registering everytime
