@@ -1,0 +1,20 @@
+{% extends 'cityinfo/base.html' %}
+{% load cityinfo_tags %} <!-- Cutesy of https://stackoverflow.com/questions/6451304/django-simple-custom-template-tag-example -->
+
+{% block title %} Details {% endblock %}
+
+{% block body %}
+
+    <img class="main_image" src="{{ spotinformation.image.url }}"/>
+
+    <h1>{{ spotinformation.plname }}</h1>
+    <h2>{{ spotinformation.description }}</h2>
+
+    <div>
+        <a data-spotid="{{ spotinformation.id }}" href="#" class="btn btn-primary btn-lg favourite-btn">
+            {% marked_favourite request.user.id spotinformation.id as active %}
+            <span class="glyphicon glyphicon-star {{ active }}"></span> Favourite
+        </a>
+    </div>
+
+{% endblock %}
