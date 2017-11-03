@@ -1,0 +1,30 @@
+{% extends 'cityinfo/base.html' %}
+{% load cityinfo_tags %} <!-- Cutesy of https://stackoverflow.com/questions/6451304/django-simple-custom-template-tag-example -->
+
+{% block title %} My Favourites {% endblock %}
+
+{% block body %}
+    {% for spotinformation in all_spot_information %}
+        <div class="divder">
+            <div class="border">
+                <img class="thumbnail" src="{{ spotinformation.image.url }}"/>
+                <h3 class="heading3">{{ spotinformation.plname }}</h3>
+                <h6 class="heading6">{{ spotinformation.location }}</h6>
+            </div>
+            <div>
+                <div class="index_options">
+                    <a href="{% url 'cityinfo:cityinfo_details' spotinformation.id %}" class="btn btn-info">
+                        <span class="glyphicon glyphicon-plus"></span>&nbsp; Details
+                    </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-trash"></span>&nbsp; Remove from favourites
+                            </button>
+                        </a>
+                </div>
+            </div>
+        </div>
+        {% comment %}            </div>{% endcomment %}
+    {% endfor %}
+
+{% endblock %}
